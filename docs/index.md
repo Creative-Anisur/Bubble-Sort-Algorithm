@@ -149,8 +149,8 @@ function start(){
         drawBars();
     }
    
- function descending(a,b){return a<b;}
- function ascending(a,b){return a>b;}
+ function descending(a,b){return b<a;}
+ function ascending(a,b){return b>a;}
   document.getElementById("bubbleSort").onclick=function(){
         document.getElementById("shuffleArray").disabled=true;
         document.getElementById("bubbleSort").disabled=true;
