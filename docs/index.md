@@ -11,7 +11,7 @@
     
 }
 #wrapper{
-    background:gray;
+    background:pink;
     overflow:auto;
     font-family:"Times New Roman";
    
@@ -41,7 +41,7 @@
         <div id="wrapper">
         <span id="slow">slow</span>
         <span id="fast">fast</span>
-        </div>
+        </div><br><br>
         <div id="controlPanel">
             <button id="shuffleArray">Shuffle Array</button>
             <button id="bubbleSort">Bubble Sort</button>
