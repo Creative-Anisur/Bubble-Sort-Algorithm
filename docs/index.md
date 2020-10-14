@@ -8,7 +8,7 @@
 #myCanvas{
     border:solid 1px;
     width: 100%;
-    hieght: 60%;
+    height: 60%;
     
 }
 #wrapper{
