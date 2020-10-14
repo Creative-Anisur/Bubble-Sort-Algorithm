@@ -123,7 +123,7 @@ function start(){
     myCanvas.height = window.innerHeight*heightRatio;
     
     var barSettings={
-        width:100%,
+        width:80,
         heightMultiplier:20,
         margin:7
         
