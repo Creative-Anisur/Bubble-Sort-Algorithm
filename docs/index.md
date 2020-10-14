@@ -11,7 +11,7 @@
     
 }
 #wrapper{
-    background:red;
+    background:gray;
     overflow:auto;
     font-family:"Times New Roman";
    
@@ -125,7 +125,7 @@ function start(){
     var barSettings={
         width:60,
         heightMultiplier:40,
-        margin:7
+        margin:150
         
     }
     var delay={
