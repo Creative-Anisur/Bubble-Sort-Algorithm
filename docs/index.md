@@ -7,12 +7,13 @@
 }
 #myCanvas{
     border:solid 1px;
-    align: center;
+    
 }
 #wrapper{
     background:red;
     overflow:auto;
     font-family:"Times New Roman";
+   
 }
 #slow{
    float:left;
@@ -32,7 +33,7 @@
         <title>Bubble Sort Demo</title> 
     </head>
     <body>
-        <canvas id="myCanvas"></canvas>
+    <center><canvas id="myCanvas"></canvas></center>
         <br />
         <input id="animSpeed" value="-33" type="range" min="-33" max="-1">
         <br />
