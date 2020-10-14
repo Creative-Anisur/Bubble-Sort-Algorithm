@@ -7,6 +7,7 @@
 }
 #myCanvas{
     border:solid 1px;
+    align: center;
 }
 #wrapper{
     background:red;
