@@ -8,6 +8,7 @@
 #myCanvas{
     border:solid 1px;
     width: 100%;
+    hieght: 40%
     
 }
 #wrapper{
@@ -125,7 +126,7 @@ function start(){
     var barSettings={
         width:60,
         heightMultiplier:40,
-        margin:30
+        margin:50
         
     }
     var delay={
