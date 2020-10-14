@@ -28,8 +28,7 @@
 }
       
 </style>
-        <title>Bubble Sort Demo</title>
-        <script src="https://cdn.rawgit.com/elving/wait/master/wait.js"></script>
+        <title>Bubble Sort Demo</title> 
     </head>
     <body>
         <canvas id="myCanvas"></canvas>
