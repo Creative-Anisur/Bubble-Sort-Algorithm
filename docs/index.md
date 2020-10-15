@@ -147,7 +147,7 @@ function start(){
     
     var barSettings={
         width:20,
-        heightMultiplier:20,
+        heightMultiplier:15,
         margin:12,
         
     }
