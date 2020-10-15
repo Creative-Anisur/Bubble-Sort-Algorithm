@@ -34,7 +34,7 @@
 }
       
 </style>
-        <title>Bubble Sort Demo</title> 
+        <title>Bubble Sort Algorithm </title> 
     </head>
     <body>
     <center><canvas id="myCanvas"></canvas></center>
@@ -60,11 +60,11 @@
             <p id="algorithmDetails"> 
 
 <pre>
-<b>Implementation: Bubble Sort Algorithm</b>
+<b>Implementation: Bubble_Sort_Algorithm</b>
 input: a as an array to be sorted
 output: sorted array a
 
-function bubbleSort(a){
+function bubble_Sort(a){
     var swapped;
     do{
         swapped = false;
@@ -93,7 +93,7 @@ function bubbleSort(a){
 <b>দ্বিতীয় ধাপ:</b> <br>
 ( 1 4 2 5 8 )→( 1 4 2 5 8 ) <br>
 ( 1 4 2 5 8 )→( 1 2 4 5 8 ),যেহেতু 4 > 2 সেহেতু স্থান পরিবর্তন করবে।<br>
-( 1 2 4 5 8 )→( 1 2 4 5 8 ), যেহেতু এই উপাদানগুলো ক্রমানুসারে আছে<br>
+( 1 2 4 5 8 )→( 1 2 4 5 8 ), যেহেতু এই উপাদানগুলো ক্রমানুসারে আছে।<br><br>
 কিন্তু অ্যালগোরিদমটি অ্যারের উপাদানগুলো সর্ট হয়েছে বা ক্রমানুসারে আছে কি না সেটা নিশ্চিত নয়।
 উপাদানগুলো ক্রমানুসারে আছে সেটা নির্ধারণ করার জন্য উপাদানগুলোর স্থান পরিবর্তন না করে পুনরায় একটি পূর্ণাঙ্গ ধাপের দরকার হয়।<br><br>
 
