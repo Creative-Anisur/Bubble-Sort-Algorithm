@@ -1,4 +1,4 @@
-<html>
+o<html>
     <head>
       
      <style>
@@ -49,8 +49,8 @@
             <button id="shuffleArray">Shuffle Array</button>
             <button id="bubbleSort">Bubble Sort</button>
             <select id="selectOrder">
-                <option value="descending">Descending Order</option>
-                <option value="ascending">Ascending Order</option>
+                <option value="descending">Descending</option>
+                <option value="ascending">Ascending</option>
             </select>
             <br />
             <div id="info"></div>
