@@ -8,7 +8,7 @@
 #myCanvas{
     border:solid 1px;
     width: 100%;
-    height: 100%;
+   
     
 }
 #wrapper{
@@ -144,9 +144,9 @@ function start(){
     myCanvas.height = window.innerHeight*heightRatio;
     
     var barSettings={
-        width:50,
-        heightMultiplier:25,
-        margin:60
+        width:40,
+        heightMultiplier:20,
+        margin:7
         
     }
     var delay={
