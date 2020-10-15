@@ -52,7 +52,7 @@
                 <option value="descending">Desc</option>
                 <option value="ascending">Asc</option>
             </select>
-            <br />
+            <br><br>
             <div id="info"></div>
             <br />
             <div id="debug"></div>
