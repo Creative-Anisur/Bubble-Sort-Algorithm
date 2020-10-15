@@ -146,7 +146,7 @@ function start(){
     var barSettings={
         width:20,
         heightMultiplier:20,
-        margin:15,
+        margin:12,
         
     }
     var delay={
