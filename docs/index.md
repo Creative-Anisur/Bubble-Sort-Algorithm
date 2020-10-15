@@ -49,15 +49,38 @@
             <button id="shuffleArray">Shuffle Array</button>
             <button id="bubbleSort">Bubble Sort</button>
             <select id="selectOrder">
-                <option value="ascending">Ascending Order</option>
                 <option value="descending">Descending Order</option>
+                <option value="ascending">Ascending Order</option>
             </select>
             <br />
             <div id="info"></div>
             <br />
             <div id="debug"></div>
             <br><br>
-            <p id="algorithmDetails"><b><a href="https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%B2_%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9F">বাবল সর্ট: উইকিপিডিয়া, মুক্ত বিশ্বকোষ থেকে:</a></b><br><br>
+            <p id="algorithmDetails"> 
+
+<pre>
+Implementation:
+input: a as an array to be sorted
+output: sorted array a
+
+function bubbleSort(a){
+    var swapped;
+    do{
+        swapped = false;
+        for(var i=0; i < a.length-1; i++){
+            if(a[i] > a[i+1]){
+                var temp = a[i];
+                a[i] = a[i+1];
+                a[i+1] = temp;
+                swapped = true;
+            }
+        }
+    }while(swapped);
+}
+            </pre>
+
+<b><a href="https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BE%E0%A6%AC%E0%A6%B2_%E0%A6%B8%E0%A6%B0%E0%A7%8D%E0%A6%9F">বাবল সর্ট: উইকিপিডিয়া, মুক্ত বিশ্বকোষ থেকে:</a></b><br><br>
  বাবল সর্ট (ইংরেজিঃ Bubble sort) সর্টিং অ্যালগোরিদমগুলোর মধ্যে সবচেয়ে সহজ এবং ছোট অ্যালগোরিদম।
 এই অ্যালগোরিদমে যে প্রক্রিয়াটি অনুসরণ করা হয় তা হল প্রথমে একটি অ্যারের উপাদান নির্দিষ্ট করে ধরে নেওয়া হয়। তারপর সেই অ্যারের উপাদানের সাথে অন্যান্য উপাদানগুলোকে তুলনা করা হয়। যদি পাশাপাশি উপাদান দুটির মধ্যে আগের উপাদানটি যদি পরেরটির চেয়ে বড় হয় (ছোট থেকে বড় ক্রমে সাজানোর জন্য) অথবা ছোট হয় (বড় থেকে ছোট ক্রমে সাজানোর জন্য) তাহলে উপাদান দুটির পারস্পরিক স্থান পরিবর্তন (swap) করা হয়। এভাবে সবগুলো উপাদান একবার করে নিয়ে যতক্ষণ পর্যন্ত উপাদানগুলোর পারস্পরিক স্থান পরিবর্তন হবে ততক্ষণ পর্যন্ত একই কাজের পুনরাবৃত্তি করা হয়।পারস্পরিক স্থান পরিবর্তন না হওয়ার মানে হল অ্যারেটির সর্টিং হয়ে গেছে। <br> <br> মনে করি, একটি অ্যারের উপাদানগুলো যথাক্রমে "5, 1, 4, 2, 8", এবং এই উপাদানগুলোকে ছোট থেকে বড় ক্রমে সাজাতে হবে । প্রতি ধাপে, গাঢ় উপাদান গুলোর মধ্যে তুলনা করা হবে । এর জন্য চারটি ধাপ প্রয়োজন । <br><br>
 
@@ -83,27 +106,6 @@
             Worst-case: O(n<sup>2</sup>)<br>
             Best-case: O(n)<br>
             Average Performance: O(n<sup>2</sup>)<br><br>
-            <pre>
-Implementation:
-input: a as an array to be sorted
-output: sorted array a
-
-function bubbleSort(a){
-    var swapped;
-    do{
-        swapped = false;
-        for(var i=0; i < a.length-1; i++){
-            if(a[i] > a[i+1]){
-                var temp = a[i];
-                a[i] = a[i+1];
-                a[i+1] = temp;
-                swapped = true;
-            }
-        }
-    }while(swapped);
-}
-            </pre>
-            
             </p>
         </div>
     </body>
