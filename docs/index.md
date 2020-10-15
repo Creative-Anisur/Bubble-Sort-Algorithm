@@ -138,11 +138,11 @@ function randFloat(min, max) {
 function start(){
     myCanvas=document.getElementById("myCanvas");
     ctx=myCanvas.getContext("2d");
-    var widthRatio=0.9;
-    var heightRatio=0.50;
+   // var widthRatio=0.9;
+   // var heightRatio=0.50;
 
-    myCanvas.width = window.innerWidth*widthRatio;
-    myCanvas.height = window.innerHeight*heightRatio;
+  //  myCanvas.width = window.innerWidth*widthRatio;
+  //  myCanvas.height = window.innerHeight*heightRatio;
     
     var barSettings={
         width:20,
