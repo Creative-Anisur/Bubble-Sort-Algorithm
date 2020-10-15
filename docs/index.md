@@ -46,11 +46,11 @@
         <span id="fast">fast</span>
         </div>
         <div id="controlPanel">
-            <button id="shuffleArray">Shuffle Array</button>
+            <button id="shuffleArray">Shuffle</button>
             <button id="bubbleSort">Bubble Sort</button>
             <select id="selectOrder">
-                <option value="descending">Descending</option>
-                <option value="ascending">Ascending</option>
+                <option value="descending">Desc</option>
+                <option value="ascending">Asc</option>
             </select>
             <br />
             <div id="info"></div>
