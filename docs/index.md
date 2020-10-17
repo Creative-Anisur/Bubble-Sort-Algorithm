@@ -7,8 +7,8 @@
 }
 #myCanvas{
     border:solid 1px;
-    width:100%;
-    hieght:70%;
+    width:60%;
+    hieght:50%;
     
    
     
